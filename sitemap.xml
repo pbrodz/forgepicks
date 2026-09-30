@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://forgepicks.net/about.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://forgepicks.net/mech-keyboards/about.html</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>

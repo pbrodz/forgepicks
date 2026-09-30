@@ -280,10 +280,22 @@ hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
 .inline-photo img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
 .inline-photo figcaption { font-size: .82rem; color: var(--muted, #a9a9b3); margin-top: .35rem; text-align: center; }
 
-.hub-link { opacity: .55; font-size: .82rem; }
+.hub-link { opacity: .85; font-size: .82rem; }
 .nav a.hub-link:hover, .site-nav a.hub-link:hover { opacity: 1; }
 
 /* Fresh-box entries link to anchors further down the page */
 .fresh-box li a { color: inherit; text-decoration: none; display: block; }
 .fresh-box li a:hover { text-decoration: underline; text-decoration-color: var(--ember); }
 html { scroll-behavior: smooth; }
+
+/* skip link (a11y) */
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 1rem; top: 1rem; background: var(--ember); color: #111; padding: .5rem 1rem; border-radius: 6px; z-index: 50; }
+
+/* usability pass 2026-09-30: our-pick callout + trust strip */
+.trust-strip { text-align: center; color: var(--ink-soft); font-size: .95rem; margin: 0 0 1.25rem; }
+.trust-strip a { color: var(--ember); font-weight: 600; }
+.our-pick { border: 1px solid var(--ember); border-left: 4px solid var(--ember); background: rgba(208,138,78,.07); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.25rem 0; }
+.our-pick-eyebrow { font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ember); margin: 0 0 .35rem; }
+.our-pick p:last-child { margin: 0; }
+.our-pick a { color: var(--ember); font-weight: 600; }

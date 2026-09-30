@@ -65,3 +65,8 @@ a:hover { color: var(--gold); }
 .card-new { margin: .6rem 0; }
 .new-pill { display: inline-block; background: var(--ember); color: #141417; font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; padding: .16rem .55rem; border-radius: 999px; margin-right: .45rem; vertical-align: 1px; }
 .card-new .new-text { color: var(--muted); font-size: .88rem; }
+
+/* usability pass 2026-09-30: visible card CTAs + hub trust line */
+.hub-about-line { text-align: center; color: var(--muted); font-size: 0.95rem; margin: 1rem 0 0; }
+.hub-about-line a { color: var(--ember); font-weight: 600; }
+.see-picks { color: var(--ember); font-weight: 700; }
