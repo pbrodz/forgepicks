@@ -276,4 +276,6 @@ hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
 .fresh-box li { margin: 0.35rem 0; font-size: 0.93rem; color: var(--ink-soft); }
 .fresh-box time { color: var(--ember); font-weight: 700; font-size: 0.85rem; white-space: nowrap; }
 
-.post-art { width: 100%; border-radius: 12px; margin: 1.2rem 0 .4rem; aspect-ratio: 16/9; object-fit: cover; border: 1px solid var(--line); }
+.inline-photo { margin: 1.4rem auto; max-width: 400px; }
+.inline-photo img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
+.inline-photo figcaption { font-size: .82rem; color: var(--muted, #a9a9b3); margin-top: .35rem; text-align: center; }
