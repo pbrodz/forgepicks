@@ -52,3 +52,6 @@ a:hover { color: var(--gold); }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); padding: 1.75rem 0 2.5rem; color: var(--muted); font-size: .88rem; text-align: center; }
+
+.card-new { color: var(--ember); font-size: .9rem; font-weight: 600; margin: .9rem 0 0; }
+.card-new .new-date { color: var(--muted); font-weight: 400; }
