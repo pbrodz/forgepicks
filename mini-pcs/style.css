@@ -258,6 +258,7 @@ article.post li { margin-bottom: 0.45rem; }
 .dwarf-approved span { font-size: 0.58rem; font-weight: 800; letter-spacing: 0.08em;
   color: #d6d6da; text-align: center; line-height: 1.25; margin-top: 2px; }
 .budget-pick { transform: rotate(5deg); border-color: #b08050; box-shadow: 0 4px 18px rgba(176,128,80,0.22); }
+.premium-pick { transform: rotate(-6deg); border-color: #d4af37; box-shadow: 0 4px 18px rgba(212,175,55,0.25); }
 .pick-recommended { border-color: #4a4a55; }
 .pick .price { color: var(--ink-soft); font-weight: 400; font-size: 1rem; }
 .pick .more { margin-top: 0.6rem; font-size: 0.95rem; }
