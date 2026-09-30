@@ -282,3 +282,8 @@ hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
 
 .hub-link { opacity: .55; font-size: .82rem; }
 .nav a.hub-link:hover, .site-nav a.hub-link:hover { opacity: 1; }
+
+/* Fresh-box entries link to anchors further down the page */
+.fresh-box li a { color: inherit; text-decoration: none; display: block; }
+.fresh-box li a:hover { text-decoration: underline; text-decoration-color: var(--ember); }
+html { scroll-behavior: smooth; }
