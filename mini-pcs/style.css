@@ -281,3 +281,4 @@ html { scroll-behavior: smooth; }
 .our-pick-eyebrow { font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ember); margin: 0 0 .35rem; }
 .our-pick p:last-child { margin: 0; }
 .our-pick a { color: var(--ember); font-weight: 600; }
+.our-pick p + p { margin-top: .65rem; }
