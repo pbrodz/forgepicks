@@ -61,4 +61,3 @@ a:hover { color: var(--gold); }
 .card-new { margin: .6rem 0; }
 .new-pill { display: inline-block; background: var(--ember); color: #141417; font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; padding: .16rem .55rem; border-radius: 999px; margin-right: .45rem; vertical-align: 1px; }
 .card-new .new-text { color: var(--muted); font-size: .88rem; }
-.card-new .new-date { color: var(--muted); font-size: .82rem; }
