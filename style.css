@@ -33,11 +33,11 @@ body {
 .hero-grid { display: flex; align-items: center; justify-content: center; gap: 2.5rem; text-align: left; }
 .hero-text { max-width: 36rem; }
 .hero-text .lede { margin: 0; }
-.hero-dwarf { width: 210px; border-radius: 18px; border: 1px solid var(--border); box-shadow: 0 12px 40px rgba(0,0,0,.45); flex-shrink: 0; }
+.hero-dwarf, .hero-mark { width: 190px; border-radius: 18px; border: 1px solid var(--border); box-shadow: 0 12px 40px rgba(0,0,0,.45); flex-shrink: 0; }
 @media (max-width: 700px) {
   .hero-grid { flex-direction: column; text-align: center; gap: 1.5rem; }
   .hero-text .lede { margin: 0 auto; }
-  .hero-dwarf { width: 160px; }
+  .hero-dwarf, .hero-mark { width: 140px; }
 }
 .kicker { color: var(--ember); text-transform: uppercase; letter-spacing: .22em; font-size: .75rem; font-weight: 700; margin-bottom: 1rem; }
 .hero h1 { font-size: clamp(2.2rem, 5.5vw, 3.6rem); line-height: 1.08; letter-spacing: -.01em; margin-bottom: 1.25rem; }
