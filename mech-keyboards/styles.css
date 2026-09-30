@@ -275,3 +275,5 @@ hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
 .fresh-box ul { margin: 0; padding: 0; list-style: none; }
 .fresh-box li { margin: 0.35rem 0; font-size: 0.93rem; color: var(--ink-soft); }
 .fresh-box time { color: var(--ember); font-weight: 700; font-size: 0.85rem; white-space: nowrap; }
+
+.post-art { width: 100%; border-radius: 12px; margin: 1.2rem 0 .4rem; aspect-ratio: 16/9; object-fit: cover; border: 1px solid var(--line); }
