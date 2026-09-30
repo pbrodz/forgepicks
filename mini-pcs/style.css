@@ -262,4 +262,6 @@ article.post li { margin-bottom: 0.45rem; }
 .pick .price { color: var(--ink-soft); font-weight: 400; font-size: 1rem; }
 .pick .more { margin-top: 0.6rem; font-size: 0.95rem; }
 
-.post-art { width: 100%; border-radius: 12px; margin: 1.2rem 0 .4rem; aspect-ratio: 16/9; object-fit: cover; border: 1px solid var(--line); }
+.inline-photo { margin: 1.4rem auto; max-width: 400px; }
+.inline-photo img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
+.inline-photo figcaption { font-size: .82rem; color: var(--muted, #a9a9b3); margin-top: .35rem; text-align: center; }
