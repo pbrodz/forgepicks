@@ -36,7 +36,7 @@ body {
 
 /* Hold cards */
 .hold-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; padding: 1rem 0 4rem; }
-.hold-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 2rem 1.75rem; text-align: center; transition: transform .15s ease, border-color .15s ease; }
+.hold-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 2rem 1.75rem; text-align: center; overflow: hidden; transition: transform .15s ease, border-color .15s ease; }
 .hold-card:hover { transform: translateY(-3px); border-color: var(--ember-deep); }
 .hold-art { width: calc(100% + 3.5rem); max-width: none; margin: -2rem -1.75rem 1.25rem;
   border-radius: 14px 14px 0 0; display: block; aspect-ratio: 16/9; object-fit: cover; }
