@@ -261,3 +261,5 @@ article.post li { margin-bottom: 0.45rem; }
 .pick-recommended { border-color: #4a4a55; }
 .pick .price { color: var(--ink-soft); font-weight: 400; font-size: 1rem; }
 .pick .more { margin-top: 0.6rem; font-size: 0.95rem; }
+
+.post-art { width: 100%; border-radius: 12px; margin: 1.2rem 0 .4rem; aspect-ratio: 16/9; object-fit: cover; border: 1px solid var(--line); }
