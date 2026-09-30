@@ -38,6 +38,9 @@ body {
 .hold-grid { display: flex; flex-direction: column; gap: 1rem; padding: 1rem 0 4rem; max-width: 780px; margin: 0 auto; }
 .hold-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.1rem 1.25rem; overflow: hidden; display: flex; gap: 1.25rem; align-items: center; transition: transform .15s ease, border-color .15s ease; }
 .hold-card:hover { transform: translateY(-2px); border-color: var(--ember-deep); }
+.hold-card { position: relative; cursor: pointer; }
+.card-link::after { content: ""; position: absolute; inset: 0; border-radius: 14px; }
+.hold-card .pick-count { position: relative; z-index: 1; }
 .hold-art { width: 200px; flex-shrink: 0; margin: 0; border-radius: 10px; display: block; aspect-ratio: 16/10; object-fit: cover; }
 .hold-body { min-width: 0; }
 .hold-card h2 { font-size: 1.3rem; letter-spacing: .12em; color: var(--gold); margin-bottom: .25rem; }
