@@ -30,15 +30,6 @@ body {
 
 /* Hero */
 .hero { padding: 4.5rem 0 3rem; text-align: center; background: radial-gradient(ellipse 70% 60% at 50% 0%, #2a1c12 0%, var(--bg) 70%); }
-.hero-grid { display: flex; align-items: center; justify-content: center; gap: 2.5rem; text-align: left; }
-.hero-text { max-width: 36rem; }
-.hero-text .lede { margin: 0; }
-.hero-dwarf, .hero-mark { width: 190px; border-radius: 18px; border: 1px solid var(--border); box-shadow: 0 12px 40px rgba(0,0,0,.45); flex-shrink: 0; }
-@media (max-width: 700px) {
-  .hero-grid { flex-direction: column; text-align: center; gap: 1.5rem; }
-  .hero-text .lede { margin: 0 auto; }
-  .hero-dwarf, .hero-mark { width: 140px; }
-}
 .kicker { color: var(--ember); text-transform: uppercase; letter-spacing: .22em; font-size: .75rem; font-weight: 700; margin-bottom: 1rem; }
 .hero h1 { font-size: clamp(2.2rem, 5.5vw, 3.6rem); line-height: 1.08; letter-spacing: -.01em; margin-bottom: 1.25rem; }
 .lede { color: var(--muted); font-size: 1.12rem; max-width: 34rem; margin: 0 auto; }
