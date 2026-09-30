@@ -265,3 +265,6 @@ article.post li { margin-bottom: 0.45rem; }
 .inline-photo { margin: 1.4rem auto; max-width: 400px; }
 .inline-photo img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
 .inline-photo figcaption { font-size: .82rem; color: var(--muted, #a9a9b3); margin-top: .35rem; text-align: center; }
+
+.hub-link { opacity: .55; font-size: .82rem; }
+.nav a.hub-link:hover, .site-nav a.hub-link:hover { opacity: 1; }
