@@ -44,6 +44,7 @@ body {
 .hold-art { width: 200px; flex-shrink: 0; margin: 0; border-radius: 10px; display: block; aspect-ratio: 16/10; object-fit: cover; }
 .hold-body { min-width: 0; }
 .hold-card h2 { font-size: 1.3rem; letter-spacing: .12em; color: var(--gold); margin-bottom: .25rem; }
+.hold-kind { font-size: .8rem; letter-spacing: .02em; font-weight: 400; color: var(--muted); }
 .hold-tag { color: var(--ember); font-size: .98rem; margin-bottom: .55rem; }
 .hold-card p { color: var(--muted); margin-bottom: .55rem; font-size: .93rem; }
 .hold-card p:last-child { margin-bottom: 0; }
