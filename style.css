@@ -38,7 +38,8 @@ body {
 .hold-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; padding: 1rem 0 4rem; }
 .hold-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 2rem 1.75rem; text-align: center; transition: transform .15s ease, border-color .15s ease; }
 .hold-card:hover { transform: translateY(-3px); border-color: var(--ember-deep); }
-.hold-glyph { font-size: 2.4rem; margin-bottom: .75rem; }
+.hold-art { width: calc(100% + 3.5rem); max-width: none; margin: -2rem -1.75rem 1.25rem;
+  border-radius: 14px 14px 0 0; display: block; aspect-ratio: 16/9; object-fit: cover; }
 .hold-card h2 { font-size: 1.6rem; letter-spacing: .12em; color: var(--gold); margin-bottom: .4rem; }
 .hold-tag { color: var(--ember); font-size: 1.02rem; margin-bottom: .9rem; }
 .hold-card p { color: var(--muted); margin-bottom: 1rem; }
