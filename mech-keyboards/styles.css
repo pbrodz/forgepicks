@@ -108,6 +108,11 @@ a:hover { color: var(--ember); }
   padding: 0.25rem 0.8rem;
   border-radius: 999px;
 }
+/* color-coded badge types: top pick / budget / premium */
+.badge.is-top { color: var(--ember); border-color: var(--ember); background: rgba(208,138,78,.12); }
+.badge.is-budget { color: #8fce7e; border-color: #6da862; background: rgba(109,168,98,.12); }
+.badge.is-premium { color: #e3b64c; border-color: #c9a227; background: rgba(201,162,39,.12); }
+
 .pick h3 { margin-top: 0.4rem; font-size: 1.35rem; }
 .pick h3 .price { font-family: inherit; font-size: 1rem; color: var(--ink-soft); font-weight: normal; }
 .pick-img {
