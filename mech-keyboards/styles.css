@@ -298,7 +298,7 @@ hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
 }
 .fresh-box ul { margin: 0; padding: 0; list-style: none; }
 .fresh-box li { margin: 0.35rem 0; font-size: 0.93rem; color: var(--ink-soft); }
-.fresh-box .fresh-more { margin: 0.6rem 0 0; font-size: 0.88rem; }
+.fresh-more { margin: 0.6rem 0 0; font-size: 0.88rem; }
 .fresh-box time { color: var(--ember); font-weight: 700; font-size: 0.85rem; white-space: nowrap; }
 
 .inline-photo { margin: 1.4rem auto; max-width: 400px; }
