@@ -156,7 +156,19 @@ a:hover { color: var(--ember); }
 .fineprint { font-size: 0.85rem; color: var(--ink-soft); font-style: italic; }
 
 /* ---------- comparison table ---------- */
-.table-scroll { overflow-x: auto; margin: 1.2rem 0; border: 1px solid var(--line); border-radius: var(--radius); }
+.table-scroll { overflow-x: auto; margin: 1.2rem 0 2rem; border: 1px solid var(--line); border-radius: var(--radius); }
+.table-scroll table caption {
+  text-align: left; font-weight: 700; padding: 0.8rem 1rem;
+  background: var(--bg-deep); color: #f2f2f4;
+}
+.table-scroll th { white-space: nowrap; }
+.table-scroll .badge {
+  display: inline-block; background: #2c2c34; color: #e8e8ec;
+  border: 1px solid #3a3a44;
+  font-size: 0.72rem; font-weight: 700; padding: 0.15rem 0.55rem;
+  border-radius: 999px; text-transform: uppercase; letter-spacing: 0.4px;
+  white-space: nowrap;
+}
 table { border-collapse: collapse; width: 100%; min-width: 640px; background: var(--card); font-size: 0.93rem; }
 th, td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { background: #1e1e24; color: #fff; font-weight: 600; font-size: 0.95rem; }
