@@ -51,11 +51,15 @@
 
   var btn = el("button", null, "Ask the Forge");
   btn.id = "faf-btn";
+  btn.style.position = "fixed";
+  btn.style.contain = "strict";
   btn.setAttribute("aria-label", "Ask the Forge a question about " + LABEL + "s");
 
   var panel = el("div");
   panel.id = "faf-panel";
   panel.hidden = true;
+  panel.style.position = "fixed";
+  panel.style.contain = "strict";
   var head = el("div", "faf-head");
   head.style.position = "relative";
   head.appendChild(el("strong", null, "Ask the Forge"));
