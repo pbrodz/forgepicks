@@ -72,7 +72,7 @@ img { max-width: 100%; height: auto; }
   padding: 2.2rem 0 1.8rem;
 }
 .hero p.lede { font-size: 1.1rem; color: var(--ink-soft); }
-.h2-updated { font-size: 0.85rem; font-weight: 400; color: var(--ink-faint); letter-spacing: 0.02em; white-space: nowrap; }
+.h2-updated { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ember); border: 1px solid var(--ember); border-radius: 999px; padding: 0.25rem 0.8rem; margin-left: 0.6rem; vertical-align: middle; white-space: nowrap; }
 .updated {
   display: inline-block; margin-top: 0.8rem; font-size: 0.85rem;
   background: #1e1e24; border: 1px solid var(--line); border-radius: 999px;

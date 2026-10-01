@@ -258,7 +258,7 @@ hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
   padding-left: 0.65rem; border-left: 3px solid var(--ember);
 }
 .group-sub { color: #a9a9b3; margin: 0 0 1.2rem; }
-.h2-updated { font-size: 0.85rem; font-weight: 400; color: var(--ink-faint); letter-spacing: 0.02em; white-space: nowrap; }
+.h2-updated { display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ember); border: 1px solid var(--ember); border-radius: 999px; padding: 0.25rem 0.8rem; margin-left: 0.6rem; vertical-align: middle; white-space: nowrap; }
 
 /* ---------- fresh updates box ---------- */
 .fresh-box {
