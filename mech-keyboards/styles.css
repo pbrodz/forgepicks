@@ -114,7 +114,7 @@ a:hover { color: var(--ember); }
 .badge.is-premium { color: #e3b64c; border-color: #c9a227; background: rgba(201,162,39,.12); }
 
 .pick h3 { margin-top: 0.4rem; font-size: 1.35rem; }
-.pick h3 .price { font-family: inherit; font-size: 1rem; color: var(--ink-soft); font-weight: normal; }
+.pick h3 .price { font-family: inherit; font-size: 1.35rem; color: #e3b64c; font-weight: 800; margin-left: .45rem; white-space: nowrap; }
 .pick-img {
   display: block;
   width: 100%;
@@ -177,6 +177,7 @@ th, td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(
 th { background: #1e1e24; color: #fff; font-weight: 600; font-size: 0.95rem; }
 tr:last-child td { border-bottom: none; }
 tbody tr:nth-child(even) td { background: #131316; }
+.table-scroll td:nth-child(6) { font-weight: 800; color: #e3b64c; font-size: 1.02rem; white-space: nowrap; }
 
 /* ---------- blog ---------- */
 .post-list { list-style: none; padding: 0; margin: 1.2rem 0; }
