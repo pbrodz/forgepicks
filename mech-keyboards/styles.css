@@ -72,7 +72,7 @@ a:hover { color: var(--ember); }
   border-bottom: 1px solid var(--line);
   padding: 2.2rem 0 1.8rem;
 }
-.hero p.lede { font-size: 1.1rem; color: var(--ink-soft); max-width: 76ch; }
+.hero p.lede { font-size: 1.1rem; color: var(--ink-soft); }
 .updated {
   display: inline-block;
   margin-top: 0.6rem;
@@ -257,7 +257,8 @@ hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
   font-size: 1.25rem; margin: 2.4rem 0 0.3rem;
   padding-left: 0.65rem; border-left: 3px solid var(--ember);
 }
-.group-sub { color: #a9a9b3; margin: 0 0 1.2rem; max-width: 70ch; }
+.group-sub { color: #a9a9b3; margin: 0 0 1.2rem; }
+.h2-updated { font-size: 0.85rem; font-weight: 400; color: var(--ink-faint); letter-spacing: 0.02em; white-space: nowrap; }
 
 /* ---------- fresh updates box ---------- */
 .fresh-box {
