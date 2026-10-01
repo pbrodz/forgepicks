@@ -143,6 +143,8 @@ table.compare tbody tr:last-child td { border-bottom: none; }
   position: absolute; top: -0.85rem; left: 1.2rem;
 }
 .pick h3 { margin: 0.6rem 0 0.5rem; font-size: 1.35rem; }
+/* keep title + price clear of the absolutely-positioned dwarf seal */
+.pick-recommended h3 { padding-right: 7rem; }
 .pick .verdict { margin: 0.4rem 0 0.8rem; color: var(--ink); }
 .pick p { margin: 0.6rem 0; }
 
