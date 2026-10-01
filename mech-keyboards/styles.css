@@ -169,6 +169,9 @@ a:hover { color: var(--ember); }
   border-radius: 999px; text-transform: uppercase; letter-spacing: 0.4px;
   white-space: nowrap;
 }
+.table-scroll .badge.is-top { color: var(--ember); border-color: var(--ember); background: rgba(208,138,78,.12); }
+.table-scroll .badge.is-budget { color: #8fce7e; border-color: #6da862; background: rgba(109,168,98,.12); }
+.table-scroll .badge.is-premium { color: #e3b64c; border-color: #c9a227; background: rgba(201,162,39,.12); }
 table { border-collapse: collapse; width: 100%; min-width: 640px; background: var(--card); font-size: 0.93rem; }
 th, td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { background: #1e1e24; color: #fff; font-weight: 600; font-size: 0.95rem; }
