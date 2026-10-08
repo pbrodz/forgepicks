@@ -180,6 +180,9 @@ th { background: #1e1e24; color: #fff; font-weight: 600; font-size: 0.95rem; }
 tr:last-child td { border-bottom: none; }
 tbody tr:nth-child(even) td { background: #131316; }
 .table-scroll td:nth-child(6) { font-weight: 800; color: #e3b64c; font-size: 1.02rem; white-space: nowrap; }
+.table-scroll tr.table-div td { background: #1e1e24; color: var(--ember); font-weight: 700; font-size: 0.82rem; letter-spacing: 1.6px; text-transform: uppercase; padding: 0.55rem 0.9rem; }
+.table-scroll a.pick-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--ember); }
+.table-scroll a.pick-link:hover { color: var(--ember); border-bottom-style: solid; }
 
 /* ---------- blog ---------- */
 .post-list { list-style: none; padding: 0; margin: 1.2rem 0; }
