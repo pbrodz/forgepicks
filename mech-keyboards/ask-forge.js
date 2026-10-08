@@ -3,12 +3,15 @@
   var API = "https://ask-forge.pbrodz-399.workers.dev";
   var SITE = location.pathname.indexOf("mech-keyboards") !== -1 ? "keyboards" : "mini-pcs";
   var LABEL = SITE === "keyboards" ? "keyboard" : "mini-PC";
-  var COUNT = SITE === "keyboards" ? "9 keyboard" : "8 mini-PC";
+  var COUNT = SITE === "keyboards" ? "9 keyboard" : "9 mini-PC";
   var css = [
-    "#faf-btn{position:fixed;right:1.1rem;bottom:1.1rem;z-index:60;background:#ffffff;color:#1c1c21;",
-    "border:1px solid #d08a4e;border-radius:999px;padding:.65rem 1.15rem;font:600 .9rem/1 system-ui,sans-serif;",
-    "cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.45)}",
-    "#faf-btn:hover{background:#f7f2e9}",
+    "@keyframes faf-pulse{0%{box-shadow:0 0 0 0 rgba(208,138,78,.55),0 6px 24px rgba(0,0,0,.4)}",
+    "70%{box-shadow:0 0 0 16px rgba(208,138,78,0),0 6px 24px rgba(0,0,0,.4)}",
+    "100%{box-shadow:0 0 0 0 rgba(208,138,78,0),0 6px 24px rgba(0,0,0,.4)}}",
+    "#faf-btn{position:fixed;right:1.25rem;bottom:1.25rem;z-index:60;background:#d08a4e;color:#1c1c21;",
+    "border:2px solid #1c1c21;border-radius:999px;padding:.9rem 1.6rem;font:700 1rem/1 system-ui,sans-serif;",
+    "cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.4);animation:faf-pulse 2.4s ease-out 2}",
+    "#faf-btn:hover{background:#e2a05e;transform:translateY(-1px)}",
     "#faf-panel{position:fixed;right:1.1rem;bottom:4.3rem;z-index:60;width:min(370px,calc(100vw - 2.2rem));",
     "max-height:min(520px,calc(100vh - 6rem));display:flex;flex-direction:column;background:#ffffff;color:#1c1c21;",
     "border:1px solid #d9d4c9;border-radius:14px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.18)}",
@@ -49,17 +52,15 @@
   style.textContent = css;
   document.head.appendChild(style);
 
-  var btn = el("button", null, "Ask the Forge");
+  var btn = el("button", null, "⚒ Ask the Forge");
   btn.id = "faf-btn";
   btn.style.position = "fixed";
-  btn.style.contain = "strict";
   btn.setAttribute("aria-label", "Ask the Forge a question about " + LABEL + "s");
 
   var panel = el("div");
   panel.id = "faf-panel";
   panel.hidden = true;
   panel.style.position = "fixed";
-  panel.style.contain = "strict";
   var head = el("div", "faf-head");
   head.style.position = "relative";
   head.appendChild(el("strong", null, "Ask the Forge"));
@@ -95,7 +96,7 @@
       greeted = true;
       addMsg("a", SITE === "keyboards"
         ? "Welcome to the forge. Ask me anything about our 9 keyboard picks — best split for big hands, cheapest Alice, wireless options, whatever you need."
-        : "Welcome to the forge. Ask me anything about our 8 mini-PC picks — best for Plex, cheapest for Home Assistant, lowest power draw, whatever you need.");
+        : "Welcome to the forge. Ask me anything about our 9 mini-PC picks — best for Plex, cheapest for Home Assistant, lowest power draw, whatever you need.");
     }
     if (!panel.hidden) input.focus();
   }
