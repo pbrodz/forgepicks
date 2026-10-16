@@ -342,3 +342,6 @@ html { scroll-behavior: smooth; }
 .our-pick p:last-child { margin: 0; }
 .our-pick a { color: var(--ember); font-weight: 600; }
 .our-pick p + p { margin-top: .65rem; }
+
+/* Fresh from the forge: product names */
+.fresh-product { color: var(--ember); font-weight: 700; }
