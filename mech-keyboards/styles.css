@@ -113,7 +113,7 @@ a:hover { color: var(--ember); }
 .badge.is-budget { color: #8fce7e; border-color: #6da862; background: rgba(109,168,98,.12); }
 .badge.is-premium { color: #e3b64c; border-color: #c9a227; background: rgba(201,162,39,.12); }
 
-.pick h3 { margin-top: 0.4rem; font-size: 1.35rem; }
+.pick h3 { margin-top: 0.4rem; font-size: 1.35rem; color: var(--steel); }
 /* keep title + price clear of the absolutely-positioned dwarf seal */
 .pick-recommended h3 { padding-right: 7rem; }
 .pick h3 .price { font-family: inherit; font-size: 1.35rem; color: #e3b64c; font-weight: 800; margin-left: .45rem; white-space: nowrap; }
