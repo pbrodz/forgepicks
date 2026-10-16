@@ -343,5 +343,5 @@ html { scroll-behavior: smooth; }
 .our-pick a { color: var(--ember); font-weight: 600; }
 .our-pick p + p { margin-top: .65rem; }
 
-/* Fresh from the forge: product names */
-.fresh-product { color: var(--ember); font-weight: 700; }
+/* Product names in Fresh entries + Our Pick (steel blue: distinct from ember dates, grey body, gold prices) */
+.product-name { color: var(--steel); font-weight: 700; }

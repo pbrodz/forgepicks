@@ -8,6 +8,7 @@
   --ink-soft: #9a9aa2;
   --ink-faint: #6e6e76;
   --ember: #d08a4e;         /* forge ember */
+  --steel: #6aa3d8;          /* steel blue */
   --line: #26262c;
   --card: #1b1b20;
   --radius: 10px;
@@ -308,5 +309,5 @@ html { scroll-behavior: smooth; }
 .our-pick a { color: var(--ember); font-weight: 600; }
 .our-pick p + p { margin-top: .65rem; }
 
-/* Fresh from the forge: product names */
-.fresh-product { color: var(--ember); font-weight: 700; }
+/* Product names in Fresh entries + Our Pick (steel blue: distinct from ember dates, grey body, gold prices) */
+.product-name { color: var(--steel); font-weight: 700; }
