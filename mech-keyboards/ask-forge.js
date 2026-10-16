@@ -96,7 +96,7 @@
       greeted = true;
       addMsg("a", SITE === "keyboards"
         ? "Welcome to the forge. Ask me anything about our 9 keyboard picks — best split for big hands, cheapest Alice, wireless options, whatever you need."
-        : "Welcome to the forge. Ask me anything about our 6 mini-PC picks — best for Plex, cheapest for Home Assistant, lowest power draw, whatever you need.");
+        : "Welcome to the forge. Ask me anything about our 7 mini-PC picks — best for Plex, cheapest for Home Assistant, lowest power draw, whatever you need.");
     }
     if (!panel.hidden) input.focus();
   }
