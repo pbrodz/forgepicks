@@ -113,6 +113,7 @@ table.compare th, table.compare td {
 table.compare thead th { background: #1e1e24; color: #fff; white-space: nowrap; }
 table.compare tbody tr:nth-child(even) td { background: #131316; }
 table.compare tbody tr:last-child td { border-bottom: none; }
+table.compare td:first-child strong { color: var(--steel); }
 
 .badge {
   display: inline-block; background: #2c2c34; color: #e8e8ec;
