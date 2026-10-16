@@ -3,7 +3,7 @@
   var API = "https://ask-forge.pbrodz-399.workers.dev";
   var SITE = location.pathname.indexOf("mech-keyboards") !== -1 ? "keyboards" : "mini-pcs";
   var LABEL = SITE === "keyboards" ? "keyboard" : "mini-PC";
-  var COUNT = SITE === "keyboards" ? "9 keyboard" : "9 mini-PC";
+  var COUNT = SITE === "keyboards" ? "9 keyboard" : "8 mini-PC";
   var css = [
     "@keyframes faf-pulse{0%{box-shadow:0 0 0 0 rgba(208,138,78,.55),0 6px 24px rgba(0,0,0,.4)}",
     "70%{box-shadow:0 0 0 16px rgba(208,138,78,0),0 6px 24px rgba(0,0,0,.4)}",
@@ -96,7 +96,7 @@
       greeted = true;
       addMsg("a", SITE === "keyboards"
         ? "Welcome to the forge. Ask me anything about our 9 keyboard picks — best split for big hands, cheapest Alice, wireless options, whatever you need."
-        : "Welcome to the forge. Ask me anything about our 9 mini-PC picks — best for Plex, cheapest for Home Assistant, lowest power draw, whatever you need.");
+        : "Welcome to the forge. Ask me anything about our 8 mini-PC picks — best for Plex, cheapest for Home Assistant, lowest power draw, whatever you need.");
     }
     if (!panel.hidden) input.focus();
   }
