@@ -297,7 +297,8 @@ table.compare td:nth-child(6) { font-weight: 800; color: #e3b64c; font-size: 1.0
 }
 
 /* Fresh-box entries link to anchors further down the page */
-.fresh-box li a { color: inherit; text-decoration: none; display: block; }
+.fresh-box li a { color: inherit; text-decoration: none; }
+.fresh-box li a.product-name { color: var(--steel); }
 .fresh-box li a:hover { text-decoration: underline; text-decoration-color: var(--ember); }
 html { scroll-behavior: smooth; }
 
@@ -312,3 +313,5 @@ html { scroll-behavior: smooth; }
 
 /* Product names in Fresh entries + Our Pick (steel blue: distinct from ember dates, grey body, gold prices) */
 .product-name { color: var(--steel); font-weight: 700; }
+.post-list a.product-name { text-decoration: none; }
+.post-list a.product-name:hover { color: var(--steel); text-decoration: underline; text-decoration-color: var(--ember); }
