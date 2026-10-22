@@ -315,3 +315,14 @@ html { scroll-behavior: smooth; }
 .product-name { color: var(--steel); font-weight: 700; }
 .post-list a.product-name { text-decoration: none; }
 .post-list a.product-name:hover { color: var(--steel); text-decoration: underline; text-decoration-color: var(--ember); }
+
+/* guide-ad: house ad for the Gumroad guide */
+.guide-ad { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem 1.25rem; display: flex; gap: 1.25rem; align-items: center; margin: 2rem 0 0; }
+.guide-ad:hover { border-color: var(--ember); }
+.guide-ad-art { width: 110px; height: 110px; border-radius: 8px; display: block; flex-shrink: 0; }
+.guide-ad-eyebrow { color: var(--ember); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 700; margin-bottom: .3rem; }
+.guide-ad-title { color: var(--ink); font-size: 1.2rem; font-weight: 700; margin-bottom: .35rem; }
+.guide-ad-body p { color: var(--ink-soft); font-size: .93rem; margin-bottom: .55rem; }
+.guide-ad-body p:last-child { margin-bottom: 0; }
+.guide-ad-cta { color: var(--steel); font-weight: 700; }
+@media (max-width: 560px) { .guide-ad { flex-direction: column; align-items: flex-start; } }
