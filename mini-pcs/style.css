@@ -322,3 +322,11 @@ html { scroll-behavior: smooth; }
 .guide-ad-slim p { color: var(--ink-soft); font-size: .9rem; margin: 0; }
 .guide-ad-slim strong { color: var(--ink); }
 .guide-ad-slim a { color: var(--steel); font-weight: 700; white-space: nowrap; }
+
+/* From the Blog strip: slim one-line rows, capped at 3 posts */
+.blog-strip { list-style: none; margin: 0 0 0.5rem; padding: 0; }
+.blog-strip li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.45rem 0; border-bottom: 1px solid var(--line); }
+.blog-strip li:last-child { border-bottom: none; }
+.blog-strip a { color: var(--steel); text-decoration: none; }
+.blog-strip a:hover { text-decoration: underline; }
+.blog-strip time { color: var(--ink-faint); font-size: 0.85em; white-space: nowrap; }
