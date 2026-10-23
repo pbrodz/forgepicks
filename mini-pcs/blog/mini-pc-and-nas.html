@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini PC and NAS: Do You Need Both? — IRONHOLD</title>
+<link rel="canonical" href="https://forgepicks.net/mini-pcs/blog/mini-pc-and-nas.html">
+<meta name="description" content="How a mini PC and a NAS work together in a homelab: the brain-and-vault split, a mini PC as the NAS itself, and when one box is honestly enough.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <style>
+    .post table.compare { border-collapse: collapse; border: 2px solid #6aa3d8; }
+    .post table.compare th, .post table.compare td { border: 1px solid #41556e; padding: 0.55rem 0.7rem; }
+    .post table.compare thead th { background: #6aa3d8; color: #0c1219; }
+    .post table.compare tbody tr:nth-child(even) { background: rgba(106, 163, 216, 0.08); }
+    .post table.compare td.gold { color: #e3b341; font-weight: 600; }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html"><img class="brand-logo" src="data:image/webp;base64,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" alt="Ironhold dwarf helmet logo">IRONHOLD<small>MINI PCS FORGED FOR YOUR HOMELAB</small></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="../index.html">Top Picks</a></li>
+        <li><a href="index.html" aria-current="page">Blog</a></li>
+        <li><a href="../about.html">About</a></li>
+      <li><a class="hub-link" href="https://forgepicks.net/" title="Back to forgepicks.net">⌂ forgepicks.net</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+    <article class="post">
+      <h1>Mini PC + NAS: how they work together (and when one box is enough)</h1>
+      <p class="byline">Published <time datetime="2026-10-23">October 23, 2026</time> &middot; 7 min read</p>
+
+      <p>Read any mini PC listing closely and the word <strong>NAS</strong> shows up - "great as a NAS," "pair with your NAS," "NAS-ready." It is rarely explained. Here is the actual relationship: a NAS and a mini PC are not competitors. One holds your files; the other does your computing. Homelabs mix them in three patterns, and knowing which pattern you are in answers most buying questions before they start. (New to the mini PC half? Start with <a href="what-is-a-mini-pc.html">what a mini PC is</a>.)</p>
+
+      <div class="notice" role="note"><strong>Honesty box:</strong> this is a patterns guide, not a product roundup - we do not rank NAS boxes here. Prices mentioned are typical 2026 street ranges for orientation, and they move.</div>
+
+      <h2>First, what a NAS actually is</h2>
+      <p>NAS stands for network-attached storage: a small computer whose entire job is to hold drives and serve their contents over your network, 24/7. Other machines open its folders like local ones (via SMB or NFS shares). A real NAS adds RAID - mirroring or parity across drives, so one drive dying costs you an afternoon, not your photo library. You can buy one as an appliance (Synology and QNAP are the big names) or build one on NAS software like TrueNAS or Unraid. Either way: storage is the mission, and the processors inside buyable NAS appliances are deliberately weak - they sip power and move files, and that is all they are asked to do.</p>
+
+      <h2>Pattern 1: the NAS does it all (and for most people, it works)</h2>
+      <p>Start with the setup nobody should talk you out of: a NAS running its own apps. Modern appliances run Plex or Jellyfin natively, and the Intel-based models carry the same Quick Sync hardware transcoding as a mini PC - for the classic one-or-two-streams household, Plex on a NAS is not a compromise, it is the mainstream setup, and it works well. NAS operating systems also run Docker containers, so the supporting cast lives there too: monitoring, downloaders, photo services, dashboards.</p>
+      <p>A concrete homelab built exactly this way: a NAS running Plex plus an Uptime Kuma container, and a Raspberry Pi on the side running Pi-hole. The Kuma container watches the Pi-hole; the NAS serves the movies; the Pi filters the ads. No mini PC anywhere - and nothing about it needs fixing. If your services are the classic set and your library fits the bays, this pattern is not a stepping stone. It is a destination.</p>
+      <p>Its honest limits are about scale, not viability: software-transcoding several 4K streams at once, a rack of virtual machines, or CPU-hungry applications will outgrow an appliance processor. That is an upgrade path, not a flaw - and it leads to pattern 2.</p>
+
+      <h2>Pattern 2: the mini PC is the brain, the NAS is the vault</h2>
+      <p>When the apps outgrow the NAS, the fix is not replacing it - it is promoting it. The NAS keeps the media, backups, and files. A mini PC mounts those folders over the network and takes over everything that needs a brain: heavier transcoding loads, bigger Docker stacks, virtual machines.</p>
+      <p>The connection between them matters more than people expect. If the brain reads its media from the vault, the network link <em>is</em> the drive cable - which is why we treat 2.5GbE as the homelab baseline, and why dual-LAN mini PCs exist: one port for the network, one that can talk straight to storage.</p>
+
+      <h2>Pattern 3: the mini PC IS the NAS</h2>
+      <p>Install TrueNAS, Unraid, or OpenMediaVault on a mini PC with enough drive slots and it becomes the NAS - one box doing both jobs. Done with SSDs, it is silent, fast, and idles at mini-PC watts, which no drive-bay appliance can match.</p>
+      <p>The ceiling is capacity and cost per terabyte. Mini PCs take M.2 and 2.5-inch drives, not the big cheap 3.5-inch hard drives a NAS bay swallows. An all-SSD mini-PC NAS is lovely up to a few terabytes; a growing 20TB media library wants spinning disks at a third of the price per terabyte. Storage math, not performance, is what pushes people to pattern 2.</p>
+
+      <h2>Pattern 4: the NAS as the safety net</h2>
+      <p>Even when the mini PC does everything else, a NAS earns its shelf space as the backup target: Proxmox and Docker hosts back up their virtual machines and containers to the NAS nightly. Brain dies? Restore onto any other box. It is the least glamorous pattern and the one people thank themselves for after the first dead drive.</p>
+
+      <h2>The shortcut to avoid: drives on USB</h2>
+      <p>The tempting hack - hang a stack of USB drives off a mini PC and call it a NAS - is the one setup the storage community warns about near-unanimously. USB enclosures hide drive health data (SMART), bridges drop connections under load, and RAID or ZFS pools built on them corrupt in ways that are hard to diagnose. A single USB drive for backups is fine. A USB drive <em>pool</em> as your only copy of anything is how data dies quietly.</p>
+
+      <h2>One box or two?</h2>
+      <div class="table-wrap">
+        <table class="compare">
+          <caption>Start from your library size and your services</caption>
+          <thead>
+            <tr><th scope="col">Your situation</th><th scope="col">The setup</th><th scope="col">Why</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>A few services, small library, files in the hundreds of GB</td><td>Mini PC alone</td><td>Internal SSD room is enough; add storage later if it ever pinches</td></tr>
+            <tr><td>Media library measured in terabytes and growing</td><td>Mini PC + NAS (pattern 2)</td><td>Cheap big drives in the vault, real transcoding power in the brain</td></tr>
+            <tr><td>Silence and low power above all, modest storage</td><td>Mini PC as the NAS (pattern 3)</td><td>All-SSD, near-silent, single-digit idle watts</td></tr>
+            <tr><td>You want turnkey: buy it, click through a wizard, done</td><td>NAS appliance, apps on the NAS</td><td>The mainstream happy path: Plex and containers on the appliance; split into pattern 2 only if you outgrow it</td></tr>
+            <tr><td>Data you cannot replace: family photos, documents</td><td>NAS with RAID + mini PC (patterns 2+4)</td><td>Mirrored drives for the irreplaceable, backups of the brain itself</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>The bottom line</h2>
+      <p>A NAS and a mini PC are a vault and a brain - and plenty of homelabs, including well-run ones we know, let the vault do the thinking too. If a NAS already runs your Plex and your containers happily, there is nothing to fix: standalone NAS is a real architecture, not a starter kit. The mini PC enters when the services outgrow the appliance, or when you want the storage and the compute on separate upgrade paths. Start where you are; let the workload, not the marketing, call for the second box.</p>
+
+      <h2>Related reading</h2>
+      <ul>
+        <li><a href="what-is-a-mini-pc.html">What exactly is a mini PC, and why would you want one?</a></li>
+        <li><a href="how-much-idle-power-home-server.html">How much idle power should a home server mini PC use?</a></li>
+        <li><a href="n100-vs-n150-docker-plex.html">N100 vs N150 for Docker and Plex: is the upgrade worth it?</a></li>
+      </ul>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="../index.html">Top Picks</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+    <p>IRONHOLD is a small experiment in niche publishing. Specs and prices are approximate — verify before buying. © <span id="year">2026</span> IRONHOLD.</p>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e71cd43359d640e086eb11eb9778d06c"}'></script><!-- End Cloudflare Web Analytics -->'
+</body>
+</html>
