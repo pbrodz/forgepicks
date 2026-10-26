@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>IRONHOLD Blog</title>
+  <link>https://forgepicks.net/mini-pcs/blog/</link>
+  <description>Mini PCs forged for your homelab — the IRONHOLD blog.</description>
+  <language>en</language>
+  <image>
+    <url>https://forgepicks.net/favicon.svg</url>
+    <title>IRONHOLD Blog</title>
+    <link>https://forgepicks.net/mini-pcs/blog/</link>
+  </image>
+  <item>
+    <title>Wildcat Lake Mini PCs Are $400. The $199 Box Still Wins</title>
+    <link>https://forgepicks.net/mini-pcs/blog/wildcat-lake-vs-eq12.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/wildcat-lake-vs-eq12.html</guid>
+    <description>The first Wildcat Lake mini PCs land around $390 — twice the EQ12's $199 — with soldered 12GB RAM and a single 2.5GbE port. The new chip's NPU and USB4 are real wins, but for a home server the older box still wins.</description>
+    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>What Is a NUC, and Why Is There None on Our Shortlist?</title>
+    <link>https://forgepicks.net/mini-pcs/blog/what-is-a-nuc.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/what-is-a-nuc.html</guid>
+    <description>Intel invented the category in 2013, ASUS carries the badge now, and everyone uses the name for everything. The history - and the three boring reasons no NUC makes our list.</description>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Mini PC + NAS: How They Work Together (and When One Box Is Enough)</title>
+    <link>https://forgepicks.net/mini-pcs/blog/mini-pc-and-nas.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/mini-pc-and-nas.html</guid>
+    <description>The NAS as a standalone Plex-and-containers box, the brain-and-vault split, a mini PC as the NAS itself, and the USB shortcut to avoid - four patterns, one decision table.</description>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>What Exactly Is a Mini PC, and Why Would You Want One?</title>
+    <link>https://forgepicks.net/mini-pcs/blog/what-is-a-mini-pc.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/what-is-a-mini-pc.html</guid>
+    <description>The five tiers, the five features that actually separate them (RAM sockets above all), a decision table that starts from the job - and an honest section on when a mini PC is the wrong tool entirely.</description>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>RAM Prices Are Rising: What Mini PC Buyers Should Know (2026)</title>
+    <link>https://forgepicks.net/mini-pcs/blog/ram-price-hikes-mini-pc-2026.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/ram-price-hikes-mini-pc-2026.html</guid>
+    <description>DRAM prices keep climbing: Corsair hiked its Strix Halo boxes, Acer warned of ~20% PC increases, and the cheapest 32GB DDR5-6000 kit hit $449.97. What it means for your home server.</description>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Gorgon Halo Mini PCs: the $6,500 Price War Is Already On</title>
+    <link>https://forgepicks.net/mini-pcs/blog/gorgon-halo-price-war-2026.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/gorgon-halo-price-war-2026.html</guid>
+    <description>AMD's Gorgon Halo platform went from one overpriced box to a four-way price war in a week. What the 192GB Ryzen AI Max+ 495 boxes actually offer &amp;mdash; and why none of them are picks.</description>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>The Raspberry Pi 5 Now Costs More Than a Mini PC</title>
+    <link>https://forgepicks.net/mini-pcs/blog/raspberry-pi-5-price-hike-2026.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/raspberry-pi-5-price-hike-2026.html</guid>
+    <description>The Pi 5 8GB went from $80 to $175 in three DRAM-driven price hikes. A kitted-out Pi now costs more than our top mini PC pick — so when does the Pi still win?</description>
+    <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>N100 vs N150 for Docker and Plex: Is the Upgrade Worth It?</title>
+    <link>https://forgepicks.net/mini-pcs/blog/n100-vs-n150-docker-plex.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/n100-vs-n150-docker-plex.html</guid>
+    <description>Intel's N150 is a mild refresh of the N100. We break down what actually changes for containers and media serving — and when to just buy the cheaper chip.</description>
+    <pubDate>Wed, 30 Sep 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Beelink EQ14 vs GMKtec G3 Plus: Which Is the Better Home Server?</title>
+    <link>https://forgepicks.net/mini-pcs/blog/beelink-eq14-vs-gmktec-g3-plus.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/beelink-eq14-vs-gmktec-g3-plus.html</guid>
+    <description>Two N150 mini PCs, same silicon, different price tags. A spec-by-spec comparison for home server duty — and why the cheaper one probably wins.</description>
+    <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>How Much Idle Power Should a Home Server Mini PC Use?</title>
+    <link>https://forgepicks.net/mini-pcs/blog/how-much-idle-power-home-server.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mini-pcs/blog/how-much-idle-power-home-server.html</guid>
+    <description>Your server idles 95% of the time, so idle watts are the spec that matters most. Realistic targets, what reviewers report, and how to measure your own box.</description>
+    <pubDate>Tue, 22 Sep 2026 12:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>KEYHOLD Blog</title>
+  <link>https://forgepicks.net/mech-keyboards/blog/</link>
+  <description>Forged for people who type for a living — the KEYHOLD blog.</description>
+  <language>en</language>
+  <image>
+    <url>https://forgepicks.net/favicon.svg</url>
+    <title>KEYHOLD Blog</title>
+    <link>https://forgepicks.net/mech-keyboards/blog/</link>
+  </image>
+  <item>
+    <title>True Split vs Alice Keyboards: Which Should You Actually Buy?</title>
+    <link>https://forgepicks.net/mech-keyboards/blog/split-vs-alice-keyboards.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mech-keyboards/blog/split-vs-alice-keyboards.html</guid>
+    <description>What each layout really fixes, the numpad question that decides it for most people, and the split+numpad combination that barely exists.</description>
+    <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>ZSA Moonlander vs Kinesis Advantage360: Which Is Better for People Who Type All Day?</title>
+    <link>https://forgepicks.net/mech-keyboards/blog/moonlander-vs-advantage360.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mech-keyboards/blog/moonlander-vs-advantage360.html</guid>
+    <description>The two heavyweights of the ergo world, head to head on layout, thumb clusters, software, and price.</description>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Are Split Keyboards Worth It for Coding?</title>
+    <link>https://forgepicks.net/mech-keyboards/blog/split-keyboards-worth-it-coding.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mech-keyboards/blog/split-keyboards-worth-it-coding.html</guid>
+    <description>The honest math on learning curves, shoulder pain, and when a split board actually pays off.</description>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Best Quiet Mechanical Switches for an Office Keyboard (2026)</title>
+    <link>https://forgepicks.net/mech-keyboards/blog/quiet-switches-office.html</link>
+    <guid isPermaLink="true">https://forgepicks.net/mech-keyboards/blog/quiet-switches-office.html</guid>
+    <description>Silent linears, dampened tactiles, and the mods that keep your coworkers from filing complaints.</description>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>
