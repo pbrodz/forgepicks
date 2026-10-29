@@ -56,6 +56,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://forgepicks.net/mech-keyboards/blog/split-vs-alice-keyboards.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://forgepicks.net/mini-pcs/about.html</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -69,13 +75,13 @@
   </url>
   <url>
     <loc>https://forgepicks.net/mini-pcs/blog/beelink-eq14-vs-gmktec-g3-plus.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://forgepicks.net/mini-pcs/blog/how-much-idle-power-home-server.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
