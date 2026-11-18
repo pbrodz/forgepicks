@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sleep vs Shutdown on a Mini PC: When to Use Each — IRONHOLD</title>
+<link rel="canonical" href="https://forgepicks.net/mini-pcs/blog/sleep-vs-shutdown-mini-pc.html">
+  <meta name="description" content="Sleep, shutdown, hibernate, or leave it running? When each power mode makes sense on a mini PC, what it costs, and why a home server should never sleep.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html"><img class="brand-logo" src="data:image/webp;base64,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" alt="Ironhold dwarf helmet logo">IRONHOLD<small>MINI PCS FORGED FOR YOUR HOMELAB</small></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="../index.html">Top Picks</a></li>
+        <li><a href="index.html" aria-current="page">Blog</a></li>
+        <li><a href="../about.html">About</a></li>
+      <li><a class="hub-link" href="https://forgepicks.net/" title="Back to forgepicks.net">⌂ forgepicks.net</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+    <article class="post">
+      <h1>Sleep vs Shutdown on a Mini PC: When to Use Each</h1>
+      <p class="byline">Published <time datetime="2026-11-18">November 18, 2026</time> · 5 min read</p>
+
+      <p>A laptop answers this question for you: close the lid, it sleeps. A mini PC has no lid, so every time you walk away you pick — sleep, shutdown, hibernate, or just leave it running. The good news is the stakes are low: a mini PC sips power in every mode. The bad news is the wrong choice is still annoying, especially if the box is supposed to be a server. Here is how each mode actually behaves, what it costs, and the simple rule we use.</p>
+
+      <div class="notice" role="note"><strong>Honesty box:</strong> power figures below are typical ranges from reviewer reports, not measurements of our own units — individual boxes vary. Prices are approximate — verify before buying.</div>
+
+      <p><img src="data:image/webp;base64,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" alt="Beelink EQ12 mini PC" loading="lazy"></p>
+
+      <h2>Sleep: for stepping away for a few hours</h2>
+      <p>Sleep keeps your RAM powered and shuts nearly everything else down. Your programs stay open, and the box wakes in seconds. The cost is small but real: a sleeping mini PC draws roughly 1–4W from the wall. At typical US residential rates (illustrative: ~$0.18/kWh), leaving a box asleep around the clock costs on the order of $2–6 a year — barely a rounding error on a power bill.</p>
+      <p>Use sleep when you will be back the same day and want your session exactly where you left it. It is the default answer for a mini PC doing desktop duty.</p>
+
+      <h2>Shutdown: for walking away for days, or moving the box</h2>
+      <p>Shutdown closes everything and cuts power to zero. You can unplug the box, move it, or leave it through a storm without a second thought. The price is a cold boot: even with a fast NVMe drive, expect a couple of minutes before you are back at a usable desktop, plus reopening whatever you had running.</p>
+      <p>Use shutdown when you will not touch the box for days, when you need to unplug it, or when you want a genuinely fresh start — Windows accumulates enough cruft over weeks of sleep/wake cycles that a full restart every week or two is worth doing anyway.</p>
+
+      <h2>Hibernate: the middle ground</h2>
+      <p>Hibernation saves everything in RAM to disk, then powers the box fully off. You get sleep's convenience — your session comes back — with shutdown's zero draw and unplug safety. The tradeoff is a slower resume than sleep, since the session has to be read back from disk.</p>
+      <p>Use hibernate overnight on a desktop box, or whenever you will be away a day or two but want your work waiting. One catch: hibernation is off by default on some Windows installs. If the option is missing from your power menu, <code>powercfg /hibernate on</code> in an admin terminal brings it back.</p>
+
+      <h2>The fourth option: leave it on 24/7</h2>
+      <p>None of the above applies if the box is a home server. Plex, Pi-hole, Docker, a file share — none of them work while the machine sleeps. A server that sleeps is a server that is down, and nobody in the house wants to wait for a movie to load while the box wakes up.</p>
+      <p>The cost of leaving it on is the part people overestimate. A modern N100/N150 box idles at roughly 10–15W. At 10W around the clock, that is about 88 kWh a year — roughly $16 at $0.18/kWh. Our full breakdown, with realistic idle targets and how to measure your own box, is in <a href="how-much-idle-power-home-server.html">how much idle power a home server mini PC should use</a>.</p>
+
+      <p><img src="data:image/webp;base64,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" alt="Beelink EQ14 mini PC" loading="lazy"></p>
+
+      <h2>The money, side by side</h2>
+      <p>At an illustrative $0.18/kWh, running each mode around the clock for a year:</p>
+      <table>
+        <thead>
+          <tr><th>Mode</th><th>Draw</th><th>Cost per year</th><th>Best for</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sleep</td><td>1–4W</td><td>~$2–6</td><td>Back later today, session intact</td></tr>
+          <tr><td>Hibernate</td><td>0W</td><td>$0</td><td>Overnight, away a day or two</td></tr>
+          <tr><td>Shutdown</td><td>0W</td><td>$0</td><td>Away for days, moving the box, fresh start</td></tr>
+          <tr><td>Left on (idle)</td><td>10–15W</td><td>~$16–24</td><td>Home server duty — it must stay awake</td></tr>
+        </tbody>
+      </table>
+      <p>Read the table the right way round: the difference between sleeping and shutting down is a few dollars a year. Pick the mode that fits your day, not your power bill.</p>
+
+      <h2>Does sleep wear out your mini PC?</h2>
+      <p>Not in any way that matters. The small amount of power running through the components in sleep will not meaningfully shorten their life — that was a real concern decades ago, when capacitors were far more fragile, and it is not one now. The genuine risk is a power cut or brownout while the box sleeps: everything lives in RAM, so an outage loses the session. If your area has flaky power, a small UPS matters far more than which sleep mode you pick.</p>
+
+      <h2>The bottom line</h2>
+      <p><strong>Stepping away for hours: sleep. Away for a day or two: hibernate. Away for days, or moving the box: shut it down. Running a server: leave it on — a sleeping server is a down server.</strong> And whatever you pick, restart properly every week or two. The cheapest power mode is the one that matches what the box is for, and for the boxes on our <a href="../index.html">top picks page</a> — the EQ14 at ~$379 is the in-stock N150 box we would leave running — that usually means on.</p>
+
+      <h2>Related reading</h2>
+      <ul>
+        <li><a href="how-much-idle-power-home-server.html">How much idle power should a home server mini PC use?</a></li>
+        <li><a href="what-is-a-mini-pc.html">What exactly is a mini PC, and why would you want one?</a></li>
+        <li><a href="n100-vs-n150-docker-plex.html">N100 vs N150 for Docker and Plex: is the upgrade worth it?</a></li>
+      </ul>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="../index.html">Top Picks</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="/mini-pcs/blog/feed.xml" title="IRONHOLD Blog RSS feed"><svg width="13" height="13" viewBox="0 0 24 24" fill="#f26522" aria-hidden="true" style="vertical-align:-1px"><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9zM6.18 15.64a2.18 2.18 0 1 0 0 4.36 2.18 2.18 0 0 0 0-4.36z"/></svg> RSS</a></li>
+      </ul>
+    </nav>
+    <p>IRONHOLD is a small experiment in niche publishing. Specs and prices are approximate — verify before buying. © <span id="year">2026</span> IRONHOLD.</p>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e71cd43359d640e086eb11eb9778d06c"}'></script><!-- End Cloudflare Web Analytics -->'
+</body>
+</html>
